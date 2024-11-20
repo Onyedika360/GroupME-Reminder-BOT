@@ -4,11 +4,11 @@ from datetime import datetime
 #import schedule
 
 # Your bot credentials
-bot_id = '4082fee3bf2621876aa8a7b780'
-link = 'https://meet.google.com/ynu-nwqh-rhy'
+bot_id = 'your bot id'
+link = 'your meeting virtual link'
 # Function to send a message
 def send_message(message):
-    url = 'https://api.groupme.com/v3/bots/post'
+    url = 'API URL'
     data = {
         'bot_id': bot_id,
         'text': message
